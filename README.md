@@ -7,8 +7,8 @@ Levando em consideração os dados de usabilidade dos produtos ofertados ao clie
 ## Dados
 
 Estão divididos em dois arquivos:
-	Dataset contendo 70 mil linhas e 172 colunas, incluindo a variável target.
-	Dicionário de dados com os significados dos acrônimos das variáveis. Para compreensão dos termos da área de telecomunicações.
+.....Dataset contendo 70 mil linhas e 172 colunas, incluindo a variável target.
+.....Dicionário de dados com os significados dos acrônimos das variáveis. Para compreensão dos termos da área de telecomunicações.
 
 ### Colunas
 

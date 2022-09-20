@@ -1,4 +1,4 @@
-# taxa_rotatividade_telecom
+# Taxa Rotatividade Telecom
 
 Desenvolver uma análise e um modelo preditivo para identificar os fatores mais relevantes na decisão dos clientes de cancelar o plano. Sendo assim, sabendo os motivos que levam ao cancelamento, ajudar a empresa a entender melhor as necessidades e prioridades dos clientes, buscando manter um maior número de clientes ativos, ou seja, uma menor taxa de rotatividade.
 

@@ -8,45 +8,52 @@ Levando em consideração os dados de usabilidade dos produtos ofertados ao clie
 
 Estão divididos em dois arquivos:
 
-Dataset contendo 70 mil linhas e 172 colunas, incluindo a variável target.
-
-Dicionário de dados com os significados dos acrônimos das variáveis. Para compreensão dos termos da área de telecomunicações.
+* Dataset contendo 70 mil linhas e 172 colunas, incluindo a variável target.
+* Dicionário de dados com os significados dos acrônimos das variáveis. Para compreensão dos termos da área de telecomunicações.
 
 ### Colunas
 
-•	CIRCLE_ID: Área a qual o cliente pertence
-•	LOC: Ligações locais - dentro da mesma área
-•	STD: chamadas padrão - fora da área
-•	IC: Chamadas recebidas
-•	OG: Chamadas realizadas
-•	T2T: Ligações entre mesma operadora (entre celulares)
-•	T2M: Ligações entre outra operadora de celular
-•	T2O: Ligações para outra operadora de linha fixa
-•	T2F: Ligações para linha fixa da mesma operadora
-•	T2C: Ligações para o próprio call center
-•	ARPU: Receita média por cliente
-•	MOU: Minutos de uso - chamadas de voz
-•	AON: Tempo na operadora - número de dias que o cliente está usando a operadora
-•	ONNET: Todos os tipos de chamadas dentro da mesma operadora
-•	OFFNET: Todos os tipos de chamadas de fora da operadora
-•	ROAM: Indica que o cliente está na zona de roaming (itinerância) durante a chamada
-•	SPL: Chamadas especiais
-•	ISD: Chamadas internacionais
-•	RECH: Recarga
-•	NUM: Número
-•	AMT: Valor em moeda local
-•	MAX: Máximo
-•	DATA: Internet móvel
-•	3G: Network 3G
-•	AV: Média
-•	VOL: Volume de uso da internet móvel (em MB)
-•	2G: Network 2G
-•	PCK: Serviços pré-pagos
-•	NIGHT: Serviços somente noturnos
-•	MONTHLY: Serviços com validade equivalente a um mês
-•	SACHET: Serviços com validade menor que um mês
-•	*.6: KPI relativo ao mês de junho
-•	*.7: KPI relativo ao mês de julho
-•	*.8: KPI relativo ao mês de agosto
-•	FB_USER: Serviço de benefício ao uso do Facebook e outras redes sociais similares
-•	VBC: Custo baseado em volume - quando nenhum serviço específico é adquirido e pago por uso
+* CIRCLE_ID: Área a qual o cliente pertence
+* LOC: Ligações locais - dentro da mesma área
+* STD: chamadas padrão - fora da área
+* IC: Chamadas recebidas
+* OG: Chamadas realizadas
+* T2T: Ligações entre mesma operadora (entre celulares)
+* T2M: Ligações entre outra operadora de celular
+* T2O: Ligações para outra operadora de linha fixa
+* T2F: Ligações para linha fixa da mesma operadora
+* T2C: Ligações para o próprio call center
+* ARPU: Receita média por cliente
+* MOU: Minutos de uso - chamadas de voz
+* AON: Tempo na operadora - número de dias que o cliente está usando a operadora
+* ONNET: Todos os tipos de chamadas dentro da mesma operadora
+* OFFNET: Todos os tipos de chamadas de fora da operadora
+* ROAM: Indica que o cliente está na zona de roaming (itinerância) durante a chamada
+* SPL: Chamadas especiais
+* ISD: Chamadas internacionais
+* RECH: Recarga
+* NUM: Número
+* AMT: Valor em moeda local
+* MAX: Máximo
+* DATA: Internet móvel
+* 3G: Network 3G
+* AV: Média
+* VOL: Volume de uso da internet móvel (em MB)
+* 2G: Network 2G
+* PCK: Serviços pré-pagos
+* NIGHT: Serviços somente noturnos
+* MONTHLY: Serviços com validade equivalente a um mês
+* SACHET: Serviços com validade menor que um mês
+* *.6: KPI relativo ao mês de junho
+* *.7: KPI relativo ao mês de julho
+* *.8: KPI relativo ao mês de agosto
+* FB_USER: Serviço de benefício ao uso do Facebook e outras redes sociais similares
+* VBC: Custo baseado em volume - quando nenhum serviço específico é adquirido e pago por uso
+
+## Como executar o projeto
+1. Crie o ambiente com o comando:
+**python -m venv venv**
+2. Ative o ambiente com o comando:
+* Windows: **.\venv\Scripts\activate.bat**
+* Linux: **source <venv>/bin/activate**
+3. Instale as dependências: **pip install -r requirements.txt**

@@ -50,10 +50,13 @@ Estão divididos em dois arquivos:
 * FB_USER: Serviço de benefício ao uso do Facebook e outras redes sociais similares
 * VBC: Custo baseado em volume - quando nenhum serviço específico é adquirido e pago por uso
 
+## Requisitos
+O python deve ser igual ou maior de 3.10.2
 ## Como executar o projeto
+
 1. Crie o ambiente com o comando:
-**python -m venv venv**
+**python -m venv NOME_DA_PASTA_DO_AMBIENTE**
 2. Ative o ambiente com o comando:
-* Windows: **.\venv\Scripts\activate.bat**
-* Linux: **source <venv>/bin/activate**
+* Windows: **.\NOME_DA_PASTA_DO_AMBIENTE\Scripts\activate.bat**
+* Linux: **source <NOME_DA_PASTA_DO_AMBIENTE>/bin/activate**
 3. Instale as dependências: **pip install -r requirements.txt**

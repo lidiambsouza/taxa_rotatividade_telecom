@@ -60,3 +60,5 @@ traitlets==5.1.1
 virtualenv==20.14.1
 wcwidth==0.2.5
 Flask
+imblearn
+pycaret

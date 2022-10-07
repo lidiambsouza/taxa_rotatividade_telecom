@@ -5,7 +5,6 @@ print(os.getcwd())
 sys.path.append(os.getcwd())
 
 from flask import Flask, jsonify, request, render_template
-import numpy as np
 from src.model.model import Churn
 from src.modulos.parser import parser
 

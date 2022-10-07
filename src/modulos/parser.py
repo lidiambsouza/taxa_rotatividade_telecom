@@ -1,5 +1,3 @@
-from ast import Not
-import numpy as np
 import pandas as pd
 
 def __init__(self):

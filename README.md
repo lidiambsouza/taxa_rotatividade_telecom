@@ -63,4 +63,4 @@ O python deve ser igual ou maior de 3.10.2
 4. execute o arquivo python api.py: **python src/server/api.py**
 
 ## Como executar o projeto no heroku
-Acessando o link: ****
+Acessando o link: **https://churn-probability.herokuapp.com/**

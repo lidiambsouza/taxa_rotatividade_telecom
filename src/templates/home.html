@@ -11,7 +11,7 @@
       <div class="position-relative d-flex flex-column container-fluid">
          
          <div class="row d-flex flex-column m-2 p-1 dform">
-            <form action = "http://localhost:33507/predict" method = "POST" enctype = "multipart/form-data" 
+            <form action="{{ url_for('predict')}}" method = "POST" enctype = "multipart/form-data" 
             class="d-flex flex-row justify-content-center">
                <input type = "file" name = "file" class="m-2 p-1 file"/>
                <input type = "submit" value="Upload" class="m-2 p-1 botao"/>

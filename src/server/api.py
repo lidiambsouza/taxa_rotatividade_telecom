@@ -4,19 +4,23 @@ import os
 print(os.getcwd())
 sys.path.append(os.getcwd())
 
-from flask import Flask,  jsonify, request
+from flask import Flask, jsonify, request, render_template
 import numpy as np
-from src.model.model import Diabetes
+from src.model.model import Churn
 from src.modulos.parser import parser
 
-app = Flask(__name__)
-diabetes = Diabetes()
+app = Flask(__name__,template_folder='../templates')
+churn = Churn()
 
-@app.route('/', methods=['POST'])
+@app.route('/')
+def home():
+    return render_template('home.html')
+
+@app.route('/predict', methods=['POST'])
 def predict(): 
     values = parser(request)
-    result = diabetes.predict(values)
-    return jsonify(results=result)
+    result = churn.predict(values)
+    return render_template('home.html', df = result)
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 33507))

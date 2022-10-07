@@ -12060,3 +12060,174 @@ Please also refer to the documentation for alternative solver options:
                                       verbose=0, warm_start=False))],
          verbose=False)
 2022-10-07 01:13:47,248:INFO:save_model() successfully completed......................................
+2022-10-07 01:29:41,517:INFO:Soft dependency imported: fastapi: 0.85.0
+2022-10-07 01:29:41,517:INFO:Soft dependency imported: uvicorn: 0.18.3
+2022-10-07 01:29:41,517:INFO:Soft dependency imported: pydantic: 1.10.2
+2022-10-07 01:29:41,525:INFO:Initializing save_model()
+2022-10-07 01:29:41,525:INFO:save_model(model=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=42, verbose=0, warm_start=False), model_name=../api/best/best_api, prep_pipe_=Pipeline(memory=Memory(location=C:\Users\LBEIRA~1.SOU\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['loc_og_t2o_mou', 'std_og_t2o_mou',
+                                             'loc_ic_t2o_mou', 'arpu_6',
+                                             'arpu_7', 'arpu_8', 'onnet_mou_6',
+                                             'onnet_mou_7', 'onnet_mou_8',
+                                             'offnet_mou_6', 'offnet_mou_7',
+                                             'offnet_mou_8', 'roam_ic_mou_6',
+                                             'roam_ic_mou_7', 'ro...
+                                                              verbose='deprecated'))),
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value='constant',
+                                                              missing_values=nan,
+                                                              strategy='constant',
+                                                              verbose='deprecated'))),
+                ('low_variance',
+                 TransformerWrapper(exclude=[], include=None,
+                                    transformer=VarianceThreshold(threshold=0)))],
+         verbose=False), verbose=False, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2022-10-07 01:29:41,526:INFO:Adding model into prep_pipe
+2022-10-07 01:29:41,872:INFO:../api/best/best_api.pkl saved in current working directory
+2022-10-07 01:29:41,893:INFO:Pipeline(memory=Memory(location=C:\Users\LBEIRA~1.SOU\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['loc_og_t2o_mou', 'std_og_t2o_mou',
+                                             'loc_ic_t2o_mou', 'arpu_6',
+                                             'arpu_7', 'arpu_8', 'onnet_mou_6',
+                                             'onnet_mou_7', 'onnet_mou_8',
+                                             'offnet_mou_6', 'offnet_mou_7',
+                                             'offnet_mou_8', 'roam_ic_mou_6',
+                                             'roam_ic_mou_7', 'ro...
+                 ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0,
+                                      class_weight=None, criterion='gini',
+                                      max_depth=None, max_features='sqrt',
+                                      max_leaf_nodes=None, max_samples=None,
+                                      min_impurity_decrease=0.0,
+                                      min_samples_leaf=1, min_samples_split=2,
+                                      min_weight_fraction_leaf=0.0,
+                                      n_estimators=100, n_jobs=-1,
+                                      oob_score=False, random_state=42,
+                                      verbose=0, warm_start=False))],
+         verbose=False)
+2022-10-07 01:29:41,893:INFO:save_model() successfully completed......................................
+2022-10-07 01:29:45,497:INFO:Soft dependency imported: fastapi: 0.85.0
+2022-10-07 01:29:45,497:INFO:Soft dependency imported: uvicorn: 0.18.3
+2022-10-07 01:29:45,498:INFO:Soft dependency imported: pydantic: 1.10.2
+2022-10-07 01:29:45,503:INFO:Initializing save_model()
+2022-10-07 01:29:45,503:INFO:save_model(model=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=100, n_jobs=-1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False), model_name=../api/recall/best_recall_api, prep_pipe_=Pipeline(memory=Memory(location=C:\Users\LBEIRA~1.SOU\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['loc_og_t2o_mou', 'std_og_t2o_mou',
+                                             'loc_ic_t2o_mou', 'arpu_6',
+                                             'arpu_7', 'arpu_8', 'onnet_mou_6',
+                                             'onnet_mou_7', 'onnet_mou_8',
+                                             'offnet_mou_6', 'offnet_mou_7',
+                                             'offnet_mou_8', 'roam_ic_mou_6',
+                                             'roam_ic_mou_7', 'ro...
+                                                              verbose='deprecated'))),
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value='constant',
+                                                              missing_values=nan,
+                                                              strategy='constant',
+                                                              verbose='deprecated'))),
+                ('low_variance',
+                 TransformerWrapper(exclude=[], include=None,
+                                    transformer=VarianceThreshold(threshold=0)))],
+         verbose=False), verbose=False, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2022-10-07 01:29:45,503:INFO:Adding model into prep_pipe
+2022-10-07 01:29:45,629:INFO:../api/recall/best_recall_api.pkl saved in current working directory
+2022-10-07 01:29:45,640:INFO:Pipeline(memory=Memory(location=C:\Users\LBEIRA~1.SOU\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['loc_og_t2o_mou', 'std_og_t2o_mou',
+                                             'loc_ic_t2o_mou', 'arpu_6',
+                                             'arpu_7', 'arpu_8', 'onnet_mou_6',
+                                             'onnet_mou_7', 'onnet_mou_8',
+                                             'offnet_mou_6', 'offnet_mou_7',
+                                             'offnet_mou_8', 'roam_ic_mou_6',
+                                             'roam_ic_mou_7', 'ro...
+                 RandomForestClassifier(bootstrap=True, ccp_alpha=0.0,
+                                        class_weight=None, criterion='gini',
+                                        max_depth=None, max_features='sqrt',
+                                        max_leaf_nodes=None, max_samples=None,
+                                        min_impurity_decrease=0.0,
+                                        min_samples_leaf=1, min_samples_split=2,
+                                        min_weight_fraction_leaf=0.0,
+                                        n_estimators=100, n_jobs=-1,
+                                        oob_score=False, random_state=42,
+                                        verbose=0, warm_start=False))],
+         verbose=False)
+2022-10-07 01:29:45,640:INFO:save_model() successfully completed......................................
+2022-10-07 01:29:53,461:INFO:Soft dependency imported: fastapi: 0.85.0
+2022-10-07 01:29:53,461:INFO:Soft dependency imported: uvicorn: 0.18.3
+2022-10-07 01:29:53,461:INFO:Soft dependency imported: pydantic: 1.10.2
+2022-10-07 01:29:53,468:INFO:Initializing save_model()
+2022-10-07 01:29:53,469:INFO:save_model(model=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=42, verbose=0, warm_start=False), model_name=../api/f1/best_f1_api, prep_pipe_=Pipeline(memory=Memory(location=C:\Users\LBEIRA~1.SOU\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['loc_og_t2o_mou', 'std_og_t2o_mou',
+                                             'loc_ic_t2o_mou', 'arpu_6',
+                                             'arpu_7', 'arpu_8', 'onnet_mou_6',
+                                             'onnet_mou_7', 'onnet_mou_8',
+                                             'offnet_mou_6', 'offnet_mou_7',
+                                             'offnet_mou_8', 'roam_ic_mou_6',
+                                             'roam_ic_mou_7', 'ro...
+                                                              verbose='deprecated'))),
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value='constant',
+                                                              missing_values=nan,
+                                                              strategy='constant',
+                                                              verbose='deprecated'))),
+                ('low_variance',
+                 TransformerWrapper(exclude=[], include=None,
+                                    transformer=VarianceThreshold(threshold=0)))],
+         verbose=False), verbose=False, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2022-10-07 01:29:53,469:INFO:Adding model into prep_pipe
+2022-10-07 01:29:53,656:INFO:../api/f1/best_f1_api.pkl saved in current working directory
+2022-10-07 01:29:53,664:INFO:Pipeline(memory=Memory(location=C:\Users\LBEIRA~1.SOU\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['loc_og_t2o_mou', 'std_og_t2o_mou',
+                                             'loc_ic_t2o_mou', 'arpu_6',
+                                             'arpu_7', 'arpu_8', 'onnet_mou_6',
+                                             'onnet_mou_7', 'onnet_mou_8',
+                                             'offnet_mou_6', 'offnet_mou_7',
+                                             'offnet_mou_8', 'roam_ic_mou_6',
+                                             'roam_ic_mou_7', 'ro...
+                 ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0,
+                                      class_weight=None, criterion='gini',
+                                      max_depth=None, max_features='sqrt',
+                                      max_leaf_nodes=None, max_samples=None,
+                                      min_impurity_decrease=0.0,
+                                      min_samples_leaf=1, min_samples_split=2,
+                                      min_weight_fraction_leaf=0.0,
+                                      n_estimators=100, n_jobs=-1,
+                                      oob_score=False, random_state=42,
+                                      verbose=0, warm_start=False))],
+         verbose=False)
+2022-10-07 01:29:53,664:INFO:save_model() successfully completed......................................

@@ -63,8 +63,10 @@ O python deve ser igual ou maior de 3.10.2
 4. Instale as dependências: **pip install -r requirements.txt**
 5. execute o arquivo python api.py: **python src/server/api.py**
 
+## Como executar o projeto localmente
+Acessando o link: **http://127.0.0.1:33507** ou **http://localhost:33507**
 ## Como executar o projeto no heroku
 Acessando o link: **https://churn-probability.herokuapp.com/**
 
 ## Dados de teste
-estão na pasta data com o nome de teste.csv
+Estão na pasta data com o nome de teste.csv.

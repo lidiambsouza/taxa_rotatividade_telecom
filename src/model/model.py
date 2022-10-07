@@ -13,19 +13,8 @@ class Churn:
 
     def predict(self,values:pd.DataFrame)-> dict:
 
-        """
-        Classificar se a pessoa tem diabetes [Positivo] 
-        ou não [Negativo]
-
-        Retorna
-            Um dicionário contendo o resultado da classificação
-
-        """
-
        
         result = predict_model(self.model, data = values, round = 0)
-        dt = result.Label[0]
-        dt_int = int(dt)
-        output = {'results': self.significado[dt_int]}
+        dt = result       
 
-        return output
+        return dt

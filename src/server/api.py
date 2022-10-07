@@ -9,7 +9,7 @@ import numpy as np
 from src.model.model import Churn
 from src.modulos.parser import parser
 
-app = Flask(__name__,template_folder='../templates')
+app = Flask(__name__, template_folder='../templates', static_folder='../static')
 churn = Churn()
 
 @app.route('/')
@@ -20,7 +20,7 @@ def home():
 def predict(): 
     values = parser(request)
     result = churn.predict(values)
-    return render_template('home.html', df = result)
+    return render_template('home.html',  tables=[result.to_html(classes='data', header="true")])
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 33507))

@@ -59,4 +59,12 @@ O python deve ser igual ou maior de 3.10.2
 2. Ative o ambiente com o comando:
 * Windows: **.\NOME_DA_PASTA_DO_AMBIENTE\Scripts\activate.bat**
 * Linux: **source <NOME_DA_PASTA_DO_AMBIENTE>/bin/activate**
-3. Instale as dependências: **pip install -r requirements.txt**
+3. Atualiza o pip: **python -m pip install --upgrade pip**
+4. Instale as dependências: **pip install -r requirements.txt**
+5. execute o arquivo python api.py: **python src/server/api.py**
+
+## Como executar o projeto no heroku
+Acessando o link: **https://churn-probability.herokuapp.com/**
+
+## Dados de teste
+estão na pasta data com o nome de teste.csv
